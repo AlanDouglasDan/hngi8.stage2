@@ -1,0 +1,117 @@
+<%-include ('partials/header.ejs') %>
+<div class="kom-kom">
+    <div class="img_container">
+        <img src="/images/HNG.png" alt="">
+    </div>
+    <div class="text-center">
+        <div>Links:</div>
+        <div><a target='_blank' href="https://zuri.team">https://zuri.team</a></div>
+        <div><a target='_blank' href="https://internship.zuri.team">https://internship.zuri.team</a></div>
+        <div><a target='_blank' href="https://training.zuri.team">https://training.zuri.team</a></div>
+    </div>
+    <div class="text-center p_img">
+        <img class='me_img' src="/images/me.jpg" alt="">
+    </div>
+    <div class="text-center">
+        <h1>Douglas Alan Dan</h1>
+        <h3>Backend Developer</h3>
+    </div>
+    <div class="blue sections">
+        <div class="section1"><span class="fa fa-envelope"></span>aland6209@gmail.com</div>
+        <div class="section2"><span class="fa fa-phone"></span>+234 8133814442</div>
+        <div class="section3"><span class="fa fa-location-arrow"></span>White Lodge, Use, Uyo.</div>
+        <div class="section4"><span class="fa fa-linkedin"></span>Linkedin.com/in/alan-douglas-7b0a50217</div>
+    </div>
+    <div class="text-center">
+        <b><h2>Resume Objective</h2></b>            
+    </div>
+    <p class='text-pad no-margin'>Motivated Backend Engineer with 2+ years experience trained in web technologies like PHP, Laravel and JavaScript. Highly effective at Problem Solving. Exceptional interpersonal, communication and multitasking abilities. Prepared to deliver top notch results.</p>
+    <div class="text-center">
+        <b><h2>SKILLS</h2></b>
+    </div>
+    <div class="tags no-margin">
+        <span class="blue margins">Problem Solving</span>
+        <span class="blue margins">Team Work</span>
+        <span class="blue margins">Adaptability</span>
+        <span class="blue margins">Critical Thinking</span>
+        <span class="blue margins">Time Management</span>
+        <span class="blue margins">Leadership</span>
+        <span class="blue margins">Handling Pressure</span>
+        <span class="blue margins">Web Security</span>
+        <span class="blue margins">Communication</span>
+    </div>
+    <div class="text-center">
+        <b><h2>EXPERIENCE</h2></b>
+    </div>
+    <div class="text-pad no-margin">
+        <b><h4>Full Stack Developer</h4></b>
+        <em>Ackeron, Ikoyi, Lagos / May 2020 - Present</em>
+        <ul>
+            <li>Designed and built a web application using JavaScript, PHP, Laravel and MySQL.</li>
+            <li>Collaborated with the team in an Agile software development environment to guide project design</li>
+            <li>Performed error hunting and then utilized problem solving skills to fix bugs</li>
+            <li>Improved performance and reliability of databases, web services and other integrations</li>
+            <li>Employed Search engine optimization tactics to increase reach of targeted audience</li>
+        </ul>
+    </div>
+    <div class="text-pad no-margin">
+        <b><h4>Backend Developer</h4></b>
+        <em>Shopee LTD, Uyo, Akwa-Ibom / February 2021 – May 2021</em>
+        <ul>
+            <li>Handled all the API requests and backend functionalities of the site</li>
+            <li>Utilized strong interpersonal and communication skills to work with my team to provide the best service</li>
+            <li>Resolved all issues professionally and in a timely manner</li>
+            <li>Pulled from PHP, SQL, JavaScript and other backend library knowledge to bolster programming resources</li>                
+        </ul>
+    </div>
+    <div class="text-center no-margin">
+        <b><h2 class='marginless'>EDUCATION</h2></b>
+        <div class="sections text-left">
+            <div>
+                <div><b>Bachelor of Engineering/ Chemical Engineering</b></div>
+                University of Uyo, Uyo 2018 - Present
+            </div>
+            <div>
+                <div><b>Most Outstanding Student</b></div>
+                Department of Chemical Engineering, Uniuyo, 24-02-2019
+            </div>
+        </div>
+    </div>
+    <div class="blue bottom"></div>
+
+    <div class="text-pad">
+        <h2 class="text-center">Contact Me</h2>
+        <form class="form-horizontal" id='contactForm' action="/email", method="POST">
+            <div class="form-group">
+                <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-12">
+                    <input type="text" placeholder="Full Name" class="form-control" id="contact-name" name="name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-12">
+                    <input type="text" placeholder="Contact email" class="form-control" id="contact-email" name="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contact-subject" class="col-sm-2 control-label">Subject</label>
+                <div class="col-sm-12">
+                    <input type="text" placeholder="Subject" class="form-control" id="contact-subject" name="subject">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-12">
+                    <textarea rows="3" placeholder="Type your message here" class="form-control" id="contact-message" name="message"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-12">
+                    <input type="submit" class="btn btn-success btn-lg">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<%-include ('partials/footer.ejs') %>

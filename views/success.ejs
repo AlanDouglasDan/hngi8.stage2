@@ -1,0 +1,12 @@
+<%-include ('partials/header.ejs') %>
+<div class="card" style="width: 18rem;">
+    <img src="/images/download.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">You have successfully contacted Alan Douglas</h5>
+      <h6 class="card-subtitle mb-2 text-muted"><%= data.name %></h6>
+      <p class="card-text">Thank you for reaching out with the email adress <%= data.email %></p>
+      <a href="/" class="card-link">Back</a>
+      <!-- <a href="#" class="card-link">Another link</a> -->
+    </div>
+  </div>
+<%-include ('partials/footer.ejs') %>
